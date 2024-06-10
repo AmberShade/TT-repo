@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:layout_marginRight="70dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sender"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:text="Sender"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:layout_margin="7dp"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textAlignment="viewEnd"
+            android:text="today"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contents"
+        android:text="A very long and convincing message someone sent. May be even longer than some thing"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
+
+</LinearLayout>

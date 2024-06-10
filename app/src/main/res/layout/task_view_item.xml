@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/purple_200"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/taskTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:breakStrategy="simple"
+            android:text="Sample Title"
+            android:layout_margin="4dp"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+        <TextView
+            android:id="@+id/taskAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:breakStrategy="simple"
+            android:text="Some poor soul"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" />
+
+        <TextView
+            android:id="@+id/syncAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5 min ago"
+            android:layout_margin="4dp"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+
+        <TextView
+            android:id="@+id/taskLifespan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="yesterday - active"
+            android:layout_margin="4dp"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" />
+
+        <TextView
+            android:id="@+id/taskState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="in progress"
+            android:textAlignment="viewEnd"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" />
+    </LinearLayout>
+
+
+</LinearLayout>
